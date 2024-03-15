@@ -1,0 +1,12 @@
+.card-body {
+  display: flex;
+  flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.faq {
+  background-color: rgba(192, 255, 234, 0.617);
+}
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

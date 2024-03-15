@@ -1,0 +1,21 @@
+.blogs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 5vw;
+  margin: 2vw 1vw;
+  max-height: 55vh;
+  overflow-y: scroll;
+}
+.blogs::-webkit-scrollbar {
+  width: 10px;
+  display: none;
+}
+
+.blog-item {
+  padding: 20px;
+  width: 100%;
+  border: 1px solid rgba(102, 102, 102, 0.588);
+  border-radius: 20px;
+}

@@ -1,0 +1,57 @@
+/* Featured Section Styles */
+
+.featured-section {
+  margin-top: 20px;
+  padding: 10px 5vw;
+}
+
+.nav-tabs {
+  border-bottom: 2px solid #ccc;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link.active {
+  background-color: #f8f9fa;
+  border-color: transparent;
+}
+
+.tab-pane {
+  padding: 20px 0;
+}
+
+/* Example styles for article, video, and infographic components */
+.article {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.47);
+}
+
+.active {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.video {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.47);
+}
+
+.infographic {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.47);
+}

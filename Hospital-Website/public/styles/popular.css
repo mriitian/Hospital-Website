@@ -1,0 +1,44 @@
+.popularsearches {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: "80%";
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+.header {
+  color: aliceblue;
+  text-align: center;
+}
+.item-box {
+  padding: 2px;
+  display: flex;
+  place-content: center;
+  font-weight: 500;
+  color: aliceblue;
+  transition: 300ms ease;
+  cursor: pointer;
+}
+.item {
+  border-radius: 20px;
+  border: 1px solid white;
+  text-align: center;
+  width: fit-content;
+  padding: 5px 10px;
+}
+@media screen and (max-width: 700px) {
+  .item {
+    font-size: small;
+  }
+  .item-grid {
+    grid-template-columns: auto;
+  }
+}
+.item:hover {
+  background-color: aliceblue;
+  color: #006eff;
+}

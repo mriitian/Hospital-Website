@@ -1,0 +1,16 @@
+.doctors {
+  display: grid;
+  grid-template-columns: repeat(3, auto); /* Initially 2 columns */
+  column-gap: 10px;
+  row-gap: 25px;
+  padding: 20px 5vw;
+}
+
+@media screen and (max-width: 700px) {
+  .doctors {
+    grid-template-columns: repeat(
+      2,
+      auto
+    ); /* Change to 1 column when screen is small */
+  }
+}
