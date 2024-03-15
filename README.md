@@ -16,10 +16,14 @@ Make sure you have Node.js and npm installed on your machine.
    ```sh
    git clone https://github.com/your-username/hospital-website.git
 
-2. Install dependencies:
+2. Navigate to Project Directory:
+   ```sh
+   cd Hospital-Website
+
+3. Install dependencies:
    ```sh
    npm install
 
-3. To start the development server, run:
+4. To start the development server, run:
    ```sh
    npm run dev
